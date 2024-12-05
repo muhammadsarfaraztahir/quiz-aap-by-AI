@@ -1,17 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",  // React Native ke liye es6 recommended hai
     "lib": ["dom", "es2015"],
-    "allowJs": true,
-    "jsx": "react-native",
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "allowJs": true,   // JS files ko allow karta hai
+    "jsx": "react-native",  // React Native ke liye JSX
+    "moduleResolution": "node",  // Node.js style module resolution
+    "esModuleInterop": true,  // Default export compatibility
+    "skipLibCheck": true,  // External library type checking skip karein
+    "forceConsistentCasingInFileNames": true  // Case sensitive file names
   },
   "include": [
-    "node_modules/react-native/types/**/*.d.ts",
-    "node_modules/@types/**/*.d.ts",
-    "src/**/*"
+    "node_modules/react-native/types/**/*.d.ts",  // React Native types include karein
+    "node_modules/@types/**/*.d.ts",  // Other types include karein
+    "src/**/*"  // Aapka source code jo "src" folder mein ho
   ]
 }
+

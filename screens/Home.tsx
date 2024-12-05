@@ -3,7 +3,7 @@ import { View, StyleSheet, Text, ScrollView } from 'react-native';
 import { Avatar, Card, Button, Icon } from 'react-native-paper';
 import { FontAwesome } from '@expo/vector-icons';
 
-export default function ExpenseTrackerHome() {
+export default function Home({ navigation }) {
   return (
     <ScrollView style={styles.container}>
       {/* Header Section */}
